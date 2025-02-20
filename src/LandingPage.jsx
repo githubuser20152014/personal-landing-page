@@ -145,14 +145,24 @@ const LandingPage = () => {
                       <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Tailwind</span>
                       <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Framer Motion</span>
                     </div>
-                    <a 
-                      href="https://github.com/yourusername/portfolio" 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-cyan-300 hover:text-cyan-200"
-                    >
-                      View source →
-                    </a>
+                    <div className="flex gap-4">
+                      <a 
+                        href="https://steady-mousse-ce304c.netlify.app" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-cyan-300 hover:text-cyan-200"
+                      >
+                        Visit site →
+                      </a>
+                      <a 
+                        href="https://github.com/githubuser20152014/personal-landing-page" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-cyan-300 hover:text-cyan-200"
+                      >
+                        View source →
+                      </a>
+                    </div>
                   </div>
 
                   <div className="bg-slate-700/50 backdrop-blur-sm p-6 rounded-lg hover:bg-slate-700/70 transition-colors">

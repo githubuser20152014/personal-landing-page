@@ -2,6 +2,10 @@
 
 A minimalist personal landing page built with React and Tailwind CSS. Features a clean design, smooth animations, and a contact form integration.
 
+## Live Site
+
+Visit the live site: [Akhil Kumar](https://steady-mousse-ce304c.netlify.app)
+
 ## Features
 
 - 🎨 Clean, minimalist design
