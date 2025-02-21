@@ -4,7 +4,7 @@ A minimalist personal landing page built with React and Tailwind CSS. Features a
 
 ## Live Site
 
-Visit the live site: [Akhil Kumar](https://steady-mousse-ce304c.netlify.app)
+Visit the live site: [Akhil Kumar](https://my-personal-landing-page.netlify.app)
 
 ## Features
 

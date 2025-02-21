@@ -135,19 +135,20 @@ const LandingPage = () => {
                 
                 <div className="grid gap-6">
                   <div className="bg-slate-700/50 backdrop-blur-sm p-6 rounded-lg hover:bg-slate-700/70 transition-colors">
-                    <h3 className="text-2xl font-light mb-4 text-slate-50">Personal Portfolio</h3>
+                    <h3 className="text-2xl font-light mb-4 text-slate-50">Personal Landing Page</h3>
                     <p className="text-slate-300 mb-4">
-                      A minimalist portfolio built with React and Tailwind CSS. Features smooth animations
-                      and a clean, modern design.
+                      A dynamic landing page featuring a contact form, project showcase, and blog sections. 
+                      Built with modern web technologies for smooth transitions and responsive design.
                     </p>
                     <div className="flex gap-3 mb-4">
                       <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">React</span>
                       <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Tailwind</span>
                       <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Framer Motion</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Formspree</span>
                     </div>
                     <div className="flex gap-4">
                       <a 
-                        href="https://steady-mousse-ce304c.netlify.app" 
+                        href="https://my-personal-landing-page.netlify.app" 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-cyan-300 hover:text-cyan-200"
@@ -166,24 +167,36 @@ const LandingPage = () => {
                   </div>
 
                   <div className="bg-slate-700/50 backdrop-blur-sm p-6 rounded-lg hover:bg-slate-700/70 transition-colors">
-                    <h3 className="text-2xl font-light mb-4 text-slate-50">Task Management App</h3>
+                    <h3 className="text-2xl font-light mb-4 text-slate-50">Just Start</h3>
                     <p className="text-slate-300 mb-4">
-                      A productivity tool for managing daily tasks and projects. Includes drag-and-drop
-                      functionality and local storage persistence.
+                      A minimalist task manager that works like your brain. Features instant task sorting 
+                      (Today/Tomorrow/Later), smart project tagging with #hashtags, and time-stamped notes. 
+                      No fuss, no frills - just start getting things done.
                     </p>
                     <div className="flex gap-3 mb-4">
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">TypeScript</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">React</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Redux</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">HTML5</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">CSS3</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">JavaScript</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Local Storage</span>
                     </div>
-                    <a 
-                      href="https://your-task-app.netlify.app" 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-cyan-300 hover:text-cyan-200"
-                    >
-                      Visit site →
-                    </a>
+                    <div className="flex gap-4">
+                      <a 
+                        href="https://juststartnow.netlify.app" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-cyan-300 hover:text-cyan-200"
+                      >
+                        Visit site →
+                      </a>
+                      <a 
+                        href="https://github.com/githubuser20152014/just-start" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-cyan-300 hover:text-cyan-200"
+                      >
+                        View source →
+                      </a>
+                    </div>
                   </div>
                 </div>
               </motion.div>
@@ -205,46 +218,42 @@ const LandingPage = () => {
                 
                 <div className="space-y-12">
                   <article className="group">
-                    <div className="text-sm text-slate-400 mb-2">January 15, 2024</div>
+                    <div className="text-sm text-slate-400 mb-2">January 2024</div>
                     <h3 className="text-2xl font-light mb-2 group-hover:text-teal-300 transition-colors">
                       <a 
-                        href="https://your-blog.com/post-1" 
+                        href="https://www.linkedin.com/posts/akhil-kumar-2189b120_first-post" 
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Getting Started with React and Tailwind CSS
+                        First LinkedIn Post Title
                       </a>
                     </h3>
                     <p className="text-slate-300">
-                      A comprehensive guide to setting up a modern web development environment
-                      using React and Tailwind CSS. Learn best practices and common pitfalls.
+                      Brief description of your first LinkedIn post here.
                     </p>
                     <div className="flex gap-3 mt-3">
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">React</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Tailwind</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Tutorial</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Topic 1</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Topic 2</span>
                     </div>
                   </article>
 
                   <article className="group">
-                    <div className="text-sm text-slate-400 mb-2">December 28, 2023</div>
+                    <div className="text-sm text-slate-400 mb-2">January 2024</div>
                     <h3 className="text-2xl font-light mb-2 group-hover:text-teal-300 transition-colors">
                       <a 
-                        href="https://your-blog.com/post-2" 
+                        href="https://www.linkedin.com/posts/akhil-kumar-2189b120_second-post" 
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        The Power of Static Site Generation
+                        Second LinkedIn Post Title
                       </a>
                     </h3>
                     <p className="text-slate-300">
-                      Exploring the benefits of static site generation and how it can improve
-                      your website's performance and SEO.
+                      Brief description of your second LinkedIn post here.
                     </p>
                     <div className="flex gap-3 mt-3">
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">NextJS</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Performance</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">SEO</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Topic 1</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Topic 2</span>
                     </div>
                   </article>
                 </div>
