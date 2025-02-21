@@ -135,6 +135,39 @@ const LandingPage = () => {
                 
                 <div className="grid gap-6">
                   <div className="bg-slate-700/50 backdrop-blur-sm p-6 rounded-lg hover:bg-slate-700/70 transition-colors">
+                    <h3 className="text-2xl font-light mb-4 text-slate-50">Brain Dump AI</h3>
+                    <p className="text-slate-300 mb-4">
+                      An AI-powered thought organizer that transforms stream-of-consciousness notes into 
+                      structured action items. Features Claude AI integration for generating concise summaries, 
+                      actionable tasks, and motivational insights from your thoughts.
+                    </p>
+                    <div className="flex gap-3 mb-4">
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">React</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Express.js</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Claude AI</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Local Storage</span>
+                    </div>
+                    <div className="flex gap-4">
+                      <a 
+                        href="https://braindumpai.netlify.app" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-cyan-300 hover:text-cyan-200"
+                      >
+                        Visit site →
+                      </a>
+                      <a 
+                        href="https://github.com/githubuser20152014/brain-dump" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-cyan-300 hover:text-cyan-200"
+                      >
+                        View source →
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="bg-slate-700/50 backdrop-blur-sm p-6 rounded-lg hover:bg-slate-700/70 transition-colors">
                     <h3 className="text-2xl font-light mb-4 text-slate-50">Personal Landing Page</h3>
                     <p className="text-slate-300 mb-4">
                       A dynamic landing page featuring a contact form, project showcase, and blog sections. 
@@ -190,39 +223,6 @@ const LandingPage = () => {
                       </a>
                       <a 
                         href="https://github.com/githubuser20152014/just-start" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-cyan-300 hover:text-cyan-200"
-                      >
-                        View source →
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="bg-slate-700/50 backdrop-blur-sm p-6 rounded-lg hover:bg-slate-700/70 transition-colors">
-                    <h3 className="text-2xl font-light mb-4 text-slate-50">Brain Dump AI</h3>
-                    <p className="text-slate-300 mb-4">
-                      An AI-powered thought organizer that transforms stream-of-consciousness notes into 
-                      structured action items. Features Claude AI integration for generating concise summaries, 
-                      actionable tasks, and motivational insights from your thoughts.
-                    </p>
-                    <div className="flex gap-3 mb-4">
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">React</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Express.js</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Claude AI</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Local Storage</span>
-                    </div>
-                    <div className="flex gap-4">
-                      <a 
-                        href="https://braindumpai.netlify.app" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-cyan-300 hover:text-cyan-200"
-                      >
-                        Visit site →
-                      </a>
-                      <a 
-                        href="https://github.com/githubuser20152014/brain-dump" 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-cyan-300 hover:text-cyan-200"
