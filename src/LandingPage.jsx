@@ -218,42 +218,50 @@ const LandingPage = () => {
                 
                 <div className="space-y-12">
                   <article className="group">
-                    <div className="text-sm text-slate-400 mb-2">January 2024</div>
+                    <div className="text-sm text-slate-400 mb-2">February 18, 2024</div>
                     <h3 className="text-2xl font-light mb-2 group-hover:text-teal-300 transition-colors">
                       <a 
-                        href="https://www.linkedin.com/posts/akhil-kumar-2189b120_first-post" 
+                        href="https://www.linkedin.com/posts/activity-7297623406072528897-ZHGF" 
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        First LinkedIn Post Title
+                        The Evolution of Machine Learning: From Statistical Principles to Modern AI
                       </a>
                     </h3>
                     <p className="text-slate-300">
-                      Brief description of your first LinkedIn post here.
+                      An exploration of machine learning's journey from its 18th-century mathematical foundations 
+                      to today's AI revolution. Discusses how fundamental principles like Bayes' theorem still 
+                      underpin modern AI systems, while examining the convergence of data, computing power, 
+                      and algorithmic breakthroughs that enabled today's ML explosion.
                     </p>
                     <div className="flex gap-3 mt-3">
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Topic 1</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Topic 2</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Machine Learning</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">AI</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Data Science</span>
                     </div>
                   </article>
 
                   <article className="group">
-                    <div className="text-sm text-slate-400 mb-2">January 2024</div>
+                    <div className="text-sm text-slate-400 mb-2">February 20, 2024</div>
                     <h3 className="text-2xl font-light mb-2 group-hover:text-teal-300 transition-colors">
                       <a 
-                        href="https://www.linkedin.com/posts/akhil-kumar-2189b120_second-post" 
+                        href="https://www.linkedin.com/posts/activity-7298348176489480194-xRby" 
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Second LinkedIn Post Title
+                        The Art & Science of Machine Learning: A Deep Dive into Model Development
                       </a>
                     </h3>
                     <p className="text-slate-300">
-                      Brief description of your second LinkedIn post here.
+                      A practical exploration of ML model development, examining the CRISP-DM framework 
+                      and the delicate balance between technical excellence and business constraints. 
+                      Discusses the complexity trilogy of feature selection, algorithm choice, and 
+                      hyperparameter tuning, while emphasizing the importance of proper validation methodology.
                     </p>
                     <div className="flex gap-3 mt-3">
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Topic 1</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Topic 2</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Machine Learning</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Model Development</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Data Science</span>
                     </div>
                   </article>
                 </div>
