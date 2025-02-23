@@ -135,6 +135,31 @@ const LandingPage = () => {
                 
                 <div className="grid gap-6">
                   <div className="bg-slate-700/50 backdrop-blur-sm p-6 rounded-lg hover:bg-slate-700/70 transition-colors">
+                    <h3 className="text-2xl font-light mb-4 text-slate-50">Mind Flow</h3>
+                    <p className="text-slate-300 mb-4">
+                      A smart task organization system that transforms chaotic thoughts into structured action. 
+                      Features brain dump for quick capture, intelligent project tagging, a focused "Now" list, 
+                      and drag-and-drop organization. Built for those who think faster than they can organize.
+                    </p>
+                    <div className="flex gap-3 mb-4">
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">React</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Drag & Drop</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Local Storage</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Task Management</span>
+                    </div>
+                    <div className="flex gap-4">
+                      <a 
+                        href="https://github.com/githubuser20152014/task-organizer" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-cyan-300 hover:text-cyan-200"
+                      >
+                        View source →
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="bg-slate-700/50 backdrop-blur-sm p-6 rounded-lg hover:bg-slate-700/70 transition-colors">
                     <h3 className="text-2xl font-light mb-4 text-slate-50">Brain Dump AI</h3>
                     <p className="text-slate-300 mb-4">
                       An AI-powered thought organizer that transforms stream-of-consciousness notes into 
