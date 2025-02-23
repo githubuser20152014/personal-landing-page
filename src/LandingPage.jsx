@@ -276,30 +276,6 @@ const LandingPage = () => {
                 
                 <div className="space-y-12">
                   <article className="group">
-                    <div className="text-sm text-slate-400 mb-2">February 18, 2024</div>
-                    <h3 className="text-2xl font-light mb-2 group-hover:text-teal-300 transition-colors">
-                      <a 
-                        href="https://todayilearnedthis.substack.com/p/the-evolution-of-machine-learning?r=lvsyk" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        The Evolution of Machine Learning: From Statistical Principles to Modern AI
-                      </a>
-                    </h3>
-                    <p className="text-slate-300">
-                      An exploration of machine learning's journey from its 18th-century mathematical foundations 
-                      to today's AI revolution. Discusses how fundamental principles like Bayes' theorem still 
-                      underpin modern AI systems, while examining the convergence of data, computing power, 
-                      and algorithmic breakthroughs that enabled today's ML explosion.
-                    </p>
-                    <div className="flex gap-3 mt-3">
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Machine Learning</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">AI</span>
-                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Data Science</span>
-                    </div>
-                  </article>
-
-                  <article className="group">
                     <div className="text-sm text-slate-400 mb-2">February 20, 2024</div>
                     <h3 className="text-2xl font-light mb-2 group-hover:text-teal-300 transition-colors">
                       <a 
@@ -319,6 +295,30 @@ const LandingPage = () => {
                     <div className="flex gap-3 mt-3">
                       <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Machine Learning</span>
                       <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Model Development</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Data Science</span>
+                    </div>
+                  </article>
+
+                  <article className="group">
+                    <div className="text-sm text-slate-400 mb-2">February 18, 2024</div>
+                    <h3 className="text-2xl font-light mb-2 group-hover:text-teal-300 transition-colors">
+                      <a 
+                        href="https://todayilearnedthis.substack.com/p/the-evolution-of-machine-learning?r=lvsyk" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        The Evolution of Machine Learning: From Statistical Principles to Modern AI
+                      </a>
+                    </h3>
+                    <p className="text-slate-300">
+                      An exploration of machine learning's journey from its 18th-century mathematical foundations 
+                      to today's AI revolution. Discusses how fundamental principles like Bayes' theorem still 
+                      underpin modern AI systems, while examining the convergence of data, computing power, 
+                      and algorithmic breakthroughs that enabled today's ML explosion.
+                    </p>
+                    <div className="flex gap-3 mt-3">
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Machine Learning</span>
+                      <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">AI</span>
                       <span className="text-xs bg-slate-600 px-2 py-1 rounded text-slate-200">Data Science</span>
                     </div>
                   </article>
