@@ -279,7 +279,7 @@ const LandingPage = () => {
                     <div className="text-sm text-slate-400 mb-2">February 18, 2024</div>
                     <h3 className="text-2xl font-light mb-2 group-hover:text-teal-300 transition-colors">
                       <a 
-                        href="https://www.linkedin.com/posts/activity-7297623406072528897-ZHGF" 
+                        href="https://todayilearnedthis.substack.com/p/the-evolution-of-machine-learning?r=lvsyk" 
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -303,7 +303,7 @@ const LandingPage = () => {
                     <div className="text-sm text-slate-400 mb-2">February 20, 2024</div>
                     <h3 className="text-2xl font-light mb-2 group-hover:text-teal-300 transition-colors">
                       <a 
-                        href="https://www.linkedin.com/posts/activity-7298348176489480194-xRby" 
+                        href="https://todayilearnedthis.substack.com/p/the-art-and-science-of-machine-learning?r=lvsyk" 
                         target="_blank"
                         rel="noopener noreferrer"
                       >
